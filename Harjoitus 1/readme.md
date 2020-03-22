@@ -19,4 +19,15 @@
 - time.sleep(n)
 
 **Tehtävä**  
-Tee ohjelma, joka tulostaa lauseen sana kerrallaan, sekunnin välein.
+- Tee ohjelma, joka tulostaa lauseen sana kerrallaan, sekunnin välein.
+
+
+## Tehtävä 2: Muuttujat!
+- Luo uusi tiedosto
+- Luodaan kaksi muuttujaa ja asetetaan niille arvo: `a = 1` ja `b = 3`
+- Huomaa: Python -kielessä muutujille ei normaalisti tarvise kertoa tiedostotyyppiä
+- Tulostetaan muuttujien summa: `print(a + b)`
+
+**Tehtävä:**  
+1. Tulosta lause, jossa jokainen sana tulostetaan eri muuttujana.
+2. Mitä tapahtuu, jos suorittaa laskutoimitusta kahdelle *erityyppiselle* muuttujalle?
