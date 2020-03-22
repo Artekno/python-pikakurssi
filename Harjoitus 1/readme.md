@@ -46,8 +46,19 @@
 
 ## Tehtävä 3: if-elif-else
 - Kysytään käyttäjältä numeroa: `numero = input("Anna jokin numero:")`
-- Tarkistetaan if-lausekkella, onko annettu numero yli: `if numero > 10:`
+- Tarkistetaan *if*-lausekkella, onko annettu numero yli: `if numero > 10:`
 - Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on oli 10")`
-- Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta if-lausekkeen kanssa. Kirjoita: `elif:`
+- Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta *if*-lausekkeen kanssa. Kirjoita: `elif:`
 - Uusi rivi alkaa taas yhdellä sisenyksellä: `print("Numerosi on alle 10")`
-- Lopuksi luodaan *else*-ehto, joka suoritetaan ilman argumenttejä: `print("Numerosi on tasan 10!")`
+- Lopuksi luodaan *else*-ehto, joka suoritetaan ilman argumenttejä:  
+`else:`  
+`   print("Numerosi on tasan 10!")`
+
+**Uudet komennot:**  
+- if
+- elif
+- else
+
+**Tehtävät**  
+1. Toista tehtävä käyttäen vertailussa kirjaimia tai tekstiä. Huomioi, että myös aakkosia voi vertailla: `a < b on tosi`
+2. Tee yksinkertainen nelilaskin. Syötteen voidaan olettaa olevan kokonaislukuja.
