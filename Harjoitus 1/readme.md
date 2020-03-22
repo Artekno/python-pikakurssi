@@ -54,7 +54,8 @@
 - Lopuksi luodaan *else*-ehto, jolla ei anneta ehtoja (ts. ehtona on, että kaikki if ja elif -lausekkeet ovat epätosia):  
 `else:`  
     `print("Numerosi on tasan 10!")`
--Mikäli halutaan lisätä tarkasteluun lisää argumenttejä, voidaan käyttää && (and), sekä || (or) -komentoja
+- Mikäli halutaan lisätä tarkasteluun lisää argumenttejä, voidaan käyttää && (and), sekä || (or) -komentoja
+- Pelkät if-else lausekkeet voi laittaa tilan säästämiseksi samalle riville: `print("A") if a > b else print("B")`
 
 **Uudet komennot:**  
 - if-elif-else
@@ -78,5 +79,5 @@
 - while
 - +=
 
-**Tehtävät**
+**Tehtävät**  
 1.
