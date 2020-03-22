@@ -44,15 +44,17 @@
 **Tehtävät**  
 1. Leiki inputin kanssa.
 
-## Tehtävä 3: if-elif-else
+## Tehtävä 4: if-elif-else
 - Kysytään käyttäjältä numeroa: `numero = input("Anna jokin numero:")`
+- Muutetaan input stringistä (lauseesta) intiksi (numeroksi): int(numero)
 - Tarkistetaan *if*-lausekkella, onko annettu numero yli: `if numero > 10:`
 - Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on oli 10")`
 - Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta *if*-lausekkeen kanssa. Kirjoita: `elif:`
 - Uusi rivi alkaa taas yhdellä sisenyksellä: `print("Numerosi on alle 10")`
-- Lopuksi luodaan *else*-ehto, joka suoritetaan ilman argumenttejä:  
+- Lopuksi luodaan *else*-ehto, jolla ei anneta ehtoja (ts. ehtona on, että kaikki if ja elif -lausekkeet ovat epätosia):  
 `else:`  
-`   print("Numerosi on tasan 10!")`
+    `print("Numerosi on tasan 10!")`
+-Mikäli halutaan lisätä tarkasteluun lisää argumenttejä, voidaan käyttää && (and), sekä || (or) -komentoja
 
 **Uudet komennot:**  
 - if
@@ -60,5 +62,21 @@
 - else
 
 **Tehtävät**  
-1. Toista tehtävä käyttäen vertailussa kirjaimia tai tekstiä. Huomioi, että myös aakkosia voi vertailla: `a < b on tosi`
+1. Toista tehtävä käyttäen vertailussa kirjaimia tai tekstiä. Huomioi, että myös aakkosia voi vertailla: `a < b == tosi`
 2. Tee yksinkertainen nelilaskin. Syötteen voidaan olettaa olevan kokonaislukuja.
+
+
+## Tehtävä 5: while-loop
+- Luodaan muuttuja i: `i = 0`
+- Tehtään muuttujan avulla while-looppi: `while (i < 10):`
+- (Muista sisennys tuplapisteen jälkeisissä riveissä)
+- Tulostetaan muuttujan arvo: `print("i on " + i)`
+- Lisätään muuttujan arvoa yhdellä: `i = i + 1` tai `i += 1`
+- Tulosteessa pitäisiä näkyä 10 kpl muuttujan arvoa
+
+**Uudet komennot**
+- while
+- +=
+
+**Tehtävät**
+1.
