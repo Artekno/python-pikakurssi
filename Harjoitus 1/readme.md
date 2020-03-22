@@ -18,8 +18,8 @@
 - print("[TEKSTI]")
 - time.sleep(n)
 
-**Tehtävä**  
-- Tee ohjelma, joka tulostaa lauseen sana kerrallaan, sekunnin välein.
+**Tehtävät**  
+1. Tee ohjelma, joka tulostaa lauseen sana kerrallaan, sekunnin välein.
 
 
 ## Tehtävä 2: Muuttujat!
@@ -28,6 +28,26 @@
 - Huomaa: Python -kielessä muutujille ei normaalisti tarvise kertoa tiedostotyyppiä
 - Tulostetaan muuttujien summa: `print(a + b)`
 
-**Tehtävä:**  
+**Tehtävät**  
 1. Tulosta lause, jossa jokainen sana tulostetaan eri muuttujana.
 2. Mitä tapahtuu, jos suorittaa laskutoimitusta kahdelle *erityyppiselle* muuttujalle?
+
+
+## Tehtävä 3: Käyttäjän syöte
+- Luodaan muuttuja: `nimi`
+- Asetetaan muuttujalle käyttäjän syöttämä nimi: `nimi = input("Syötä nimesi:")`
+- Tulostetaan annettu nimi tervehdyksen kanssa: `print("Hei, " + nimi)`
+
+**Uudet komennot**  
+- input([SYÖTE])
+
+**Tehtävät**  
+1. Leiki inputin kanssa.
+
+## Tehtävä 3: if-elif-else
+- Kysytään käyttäjältä numeroa: `numero = input("Anna jokin numero:")`
+- Tarkistetaan if-lausekkella, onko annettu numero yli: `if numero > 10:`
+- Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on oli 10")`
+- Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta if-lausekkeen kanssa. Kirjoita: `elif:`
+- Uusi rivi alkaa taas yhdellä sisenyksellä: `print("Numerosi on alle 10")`
+- Lopuksi luodaan *else*-ehto, joka suoritetaan ilman argumenttejä: `print("Numerosi on tasan 10!")`
