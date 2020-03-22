@@ -57,9 +57,9 @@
 -Mikäli halutaan lisätä tarkasteluun lisää argumenttejä, voidaan käyttää && (and), sekä || (or) -komentoja
 
 **Uudet komennot:**  
-- if
-- elif
-- else
+- if-elif-else
+- '<' (pienempikuin), '>' (suurempikuin), '==' (yhtäsuuri, älä käytä '=')
+- '&&' (and/ja), '||' (or/tai)
 
 **Tehtävät**  
 1. Toista tehtävä käyttäen vertailussa kirjaimia tai tekstiä. Huomioi, että myös aakkosia voi vertailla: `a < b == tosi`
