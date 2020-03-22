@@ -1,4 +1,4 @@
-# Harjoitus 1
+# Harjoitus 1 - Peruskomennot
 
 ## Tehtävä 1: Varmista, että kaikki toimii ja helppo ohjelma.
 - Avaa Visual Studio Code
@@ -48,7 +48,7 @@
 - Kysytään käyttäjältä numeroa: `numero = input("Anna jokin numero:")`
 - Muutetaan input **string**-tyypistä (lauseesta) **int**-tyyppiseksi (numeroksi): `numero = int(numero)`
 - Tarkistetaan *if*-lausekkella, onko annettu numero yli: `if numero > 10:`
-- Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on oli 10")`
+- Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on yli 10")`
 - Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta *if*-lausekkeen kanssa. Kirjoita: `elif:`
 - Uusi rivi alkaa taas yhdellä sisenyksellä: `print("Numerosi on alle 10")`
 - Lopuksi luodaan *else*-ehto, jolla ei anneta ehtoja (ts. ehtona on, että kaikki if ja elif -lausekkeet ovat epätosia):  
@@ -69,7 +69,7 @@
 
 ## Tehtävä 5: while-loop
 - Luodaan muuttuja i: `i = 0`
-- Tehtään muuttujan avulla while-looppi: `while (i < 10):`
+- Tehtään muuttujan avulla while-looppi: `while i < 10:`
 - (Muista sisennys tuplapisteen jälkeisissä riveissä)
 - Tulostetaan muuttujan arvo: `print("i on " + i)`
 - Lisätään muuttujan arvoa yhdellä: `i = i + 1` tai `i += 1`
