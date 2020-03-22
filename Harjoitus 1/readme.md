@@ -46,7 +46,7 @@
 
 ## Tehtävä 4: if-elif-else
 - Kysytään käyttäjältä numeroa: `numero = input("Anna jokin numero:")`
-- Muutetaan input stringistä (lauseesta) intiksi (numeroksi): int(numero)
+- Muutetaan input **string**-tyypistä (lauseesta) **int**-tyyppiseksi (numeroksi): `int(numero)`
 - Tarkistetaan *if*-lausekkella, onko annettu numero yli: `if numero > 10:`
 - Tee rivin vaihto, uuden rivin tulee alkaa sisennyksellä (yksi tab-painallus) ja kirjoita: `print("Numerosi on oli 10")`
 - Tee uusi rivinvaihto, uuden rivin tulisi alkaa samalta tasolta *if*-lausekkeen kanssa. Kirjoita: `elif:`
